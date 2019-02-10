@@ -75,12 +75,14 @@ function click(off){
 }
 
 $(function () {
-    $('#slide').slider();
+    $('#slide').slider({});
 
     $('#go').click(function () {
 
     click(0);
         $('#navid').html("<div>Affichage du resultat de 1 à 10</div>");
+        let slide =$('#slide').slider('getValue').val();
+        console.log(slide);
     });
 
 

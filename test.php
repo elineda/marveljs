@@ -17,10 +17,10 @@
 <div class="container">
     Nombre de comic à afficher (100 maximum)
 
-    <input id="slide" type="text" class="span2" value="" data-slider-min="1950" data-slider-max="2019" data-slider-step="1" data-slider-value="[1975,2000]"/>
+<input id="slide" type="text" class="span2" value="" data-slider-min="1950" data-slider-max="2019" data-slider-step="1" data-slider-value="[1975,2000]"/>
 
-    <button type="button" id="go">allons-y</button>
-    <nav><ul id="nav" class="nav"></ul></nav></div>
+<button type="button" id="go">allons-y</button>
+<nav><ul id="nav" class="nav"></ul></nav></div>
 <div id="navid" class="container"></div>
 
 <div id="result" class="container">
