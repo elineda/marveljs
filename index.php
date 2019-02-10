@@ -5,17 +5,29 @@
 
     <title>laravel</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="slider/css/slider.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header><div class="container">
+    <h1>Recherche des comics</h1>
+    </div></header>
+<div class="container">
+Nombre de comic à afficher (100 maximum)
 
-<div>nombre de comic à afficher</div>
-<input type="number" id="nombre" name="nombre"><br>
-<div>année de départ</div><input type="number" id="debut" name="debut"><br>
-<div>Année de fin</div><input type="number" id="fin" name="fin"><br>
+
+
+
+
+
+<div class="well"><b id="deb">1950</b><input type="text" class="span2" id="slide"  data-slider-min="1950" data-slider-max="2019" data-slider-step="1" data-slider-tooltip="show" data-slider-value="[1960, 2000]"  >
+    <b id="fin">2019</b></div><br><br>
 <button type="button" id="go">allons-y</button>
+</div>
+<nav class="container"><ul id="nav" class="nav"></ul></nav>
+<div id="navid" class="container"></div>
 
-<div id="result">
+<div id="result" class="container">
 
 </div>
 
@@ -25,7 +37,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
+<script src="slider/js/bootstrap-slider.js"></script>
 <script src="script.js"></script>
+<input style="display: none">
 </body>
 </html>
